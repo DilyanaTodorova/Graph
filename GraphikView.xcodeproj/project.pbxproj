@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		781BE7F8193F914F0069C297 /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 781BE7F7193F914F0069C297 /* UIView+Extensions.m */; };
+		781BE7FC194342B60069C297 /* DDPRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 781BE7FB194342B60069C297 /* DDPRender.m */; };
+		781BE8031944EC270069C297 /* DDPStatisticCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 781BE8021944EC270069C297 /* DDPStatisticCalculator.m */; };
+		781BE8071945032C0069C297 /* DDPStatisticCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 781BE8061945032C0069C297 /* DDPStatisticCalculatorTests.m */; };
+		781BE80F1945F4470069C297 /* NSArray+Slice.m in Sources */ = {isa = PBXBuildFile; fileRef = 781BE80E1945F4470069C297 /* NSArray+Slice.m */; };
+		781BE812194678710069C297 /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 781BE811194678710069C297 /* UIColor+CustomColors.m */; };
 		78E858191938D0B1006C2CF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E858181938D0B1006C2CF0 /* Foundation.framework */; };
 		78E8581B1938D0B1006C2CF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E8581A1938D0B1006C2CF0 /* CoreGraphics.framework */; };
 		78E8581D1938D0B1006C2CF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E8581C1938D0B1006C2CF0 /* UIKit.framework */; };
@@ -21,6 +27,8 @@
 		78E8583A1938D0B1006C2CF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E8581C1938D0B1006C2CF0 /* UIKit.framework */; };
 		78E858421938D0B1006C2CF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78E858401938D0B1006C2CF0 /* InfoPlist.strings */; };
 		78E858441938D0B1006C2CF0 /* GraphikViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E858431938D0B1006C2CF0 /* GraphikViewTests.m */; };
+		78E858511938D1A2006C2CF0 /* DDPNumberGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E858501938D1A2006C2CF0 /* DDPNumberGenerator.m */; };
+		78E858551938D2B5006C2CF0 /* DDPGraphicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E858541938D2B5006C2CF0 /* DDPGraphicView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		781BE7F6193F914F0069C297 /* UIView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extensions.h"; sourceTree = "<group>"; };
+		781BE7F7193F914F0069C297 /* UIView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extensions.m"; sourceTree = "<group>"; };
+		781BE7FA194342B60069C297 /* DDPRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPRender.h; sourceTree = "<group>"; };
+		781BE7FB194342B60069C297 /* DDPRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPRender.m; sourceTree = "<group>"; };
+		781BE8011944EC270069C297 /* DDPStatisticCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPStatisticCalculator.h; sourceTree = "<group>"; };
+		781BE8021944EC270069C297 /* DDPStatisticCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPStatisticCalculator.m; sourceTree = "<group>"; };
+		781BE8061945032C0069C297 /* DDPStatisticCalculatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPStatisticCalculatorTests.m; sourceTree = "<group>"; };
+		781BE80D1945F4470069C297 /* NSArray+Slice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Slice.h"; sourceTree = "<group>"; };
+		781BE80E1945F4470069C297 /* NSArray+Slice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Slice.m"; sourceTree = "<group>"; };
+		781BE810194678710069C297 /* UIColor+CustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColors.h"; sourceTree = "<group>"; };
+		781BE811194678710069C297 /* UIColor+CustomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColors.m"; sourceTree = "<group>"; };
 		78E858151938D0B1006C2CF0 /* GraphikView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphikView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E858181938D0B1006C2CF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		78E8581A1938D0B1006C2CF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +72,10 @@
 		78E8583F1938D0B1006C2CF0 /* GraphikViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GraphikViewTests-Info.plist"; sourceTree = "<group>"; };
 		78E858411938D0B1006C2CF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78E858431938D0B1006C2CF0 /* GraphikViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphikViewTests.m; sourceTree = "<group>"; };
+		78E8584F1938D1A2006C2CF0 /* DDPNumberGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPNumberGenerator.h; sourceTree = "<group>"; };
+		78E858501938D1A2006C2CF0 /* DDPNumberGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPNumberGenerator.m; sourceTree = "<group>"; };
+		78E858531938D2B5006C2CF0 /* DDPGraphicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPGraphicView.h; sourceTree = "<group>"; };
+		78E858541938D2B5006C2CF0 /* DDPGraphicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPGraphicView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +102,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		781BE7F5193F90E70069C297 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				781BE7F6193F914F0069C297 /* UIView+Extensions.h */,
+				781BE7F7193F914F0069C297 /* UIView+Extensions.m */,
+				781BE80D1945F4470069C297 /* NSArray+Slice.h */,
+				781BE80E1945F4470069C297 /* NSArray+Slice.m */,
+				781BE810194678710069C297 /* UIColor+CustomColors.h */,
+				781BE811194678710069C297 /* UIColor+CustomColors.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		781BE7F9194342850069C297 /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				781BE7FA194342B60069C297 /* DDPRender.h */,
+				781BE7FB194342B60069C297 /* DDPRender.m */,
+			);
+			name = Drawer;
+			sourceTree = "<group>";
+		};
+		781BE8001944EBA90069C297 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				781BE8011944EC270069C297 /* DDPStatisticCalculator.h */,
+				781BE8021944EC270069C297 /* DDPStatisticCalculator.m */,
+			);
+			name = Calculator;
+			sourceTree = "<group>";
+		};
 		78E8580C1938D0B1006C2CF0 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +166,10 @@
 		78E8581E1938D0B1006C2CF0 /* GraphikView */ = {
 			isa = PBXGroup;
 			children = (
+				781BE7F9194342850069C297 /* Drawer */,
+				781BE7F5193F90E70069C297 /* Categories */,
+				78E858521938D283006C2CF0 /* View */,
+				78E8584D1938D0EB006C2CF0 /* Model */,
 				78E858271938D0B1006C2CF0 /* DDPAppDelegate.h */,
 				78E858281938D0B1006C2CF0 /* DDPAppDelegate.m */,
 				78E8582A1938D0B1006C2CF0 /* Main.storyboard */,
@@ -138,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				78E858431938D0B1006C2CF0 /* GraphikViewTests.m */,
+				781BE8061945032C0069C297 /* DDPStatisticCalculatorTests.m */,
 				78E8583E1938D0B1006C2CF0 /* Supporting Files */,
 			);
 			path = GraphikViewTests;
@@ -150,6 +209,33 @@
 				78E858401938D0B1006C2CF0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78E8584D1938D0EB006C2CF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				781BE8001944EBA90069C297 /* Calculator */,
+				78E8584E1938D0F7006C2CF0 /* NumberGenerator */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		78E8584E1938D0F7006C2CF0 /* NumberGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				78E8584F1938D1A2006C2CF0 /* DDPNumberGenerator.h */,
+				78E858501938D1A2006C2CF0 /* DDPNumberGenerator.m */,
+			);
+			name = NumberGenerator;
+			sourceTree = "<group>";
+		};
+		78E858521938D283006C2CF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78E858531938D2B5006C2CF0 /* DDPGraphicView.h */,
+				78E858541938D2B5006C2CF0 /* DDPGraphicView.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +336,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78E858551938D2B5006C2CF0 /* DDPGraphicView.m in Sources */,
+				781BE8031944EC270069C297 /* DDPStatisticCalculator.m in Sources */,
+				781BE812194678710069C297 /* UIColor+CustomColors.m in Sources */,
 				78E8582F1938D0B1006C2CF0 /* DDPViewController.m in Sources */,
 				78E858251938D0B1006C2CF0 /* main.m in Sources */,
+				781BE7FC194342B60069C297 /* DDPRender.m in Sources */,
 				78E858291938D0B1006C2CF0 /* DDPAppDelegate.m in Sources */,
+				781BE7F8193F914F0069C297 /* UIView+Extensions.m in Sources */,
+				781BE80F1945F4470069C297 /* NSArray+Slice.m in Sources */,
+				78E858511938D1A2006C2CF0 /* DDPNumberGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78E858441938D0B1006C2CF0 /* GraphikViewTests.m in Sources */,
+				781BE8071945032C0069C297 /* DDPStatisticCalculatorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +555,7 @@
 				78E858491938D0B1006C2CF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78E8584A1938D0B1006C2CF0 /* Build configuration list for PBXNativeTarget "GraphikViewTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +564,7 @@
 				78E8584C1938D0B1006C2CF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
